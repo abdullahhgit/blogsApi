@@ -1,0 +1,87 @@
+.blogs {
+    padding: 40px 10px;
+    background: #fff;
+}
+
+.blogs .blogContainer {
+    max-width: 1280px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+Link {
+    text-decoration: none;
+}
+
+.blogContainer .blogCart {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 31%;
+    margin: 20px 10px;
+}
+
+.blogContainer .blogCart .blogImage, .blogContainer .blogCart .blogImage img {
+    width: 100%;
+    margin-bottom: 15px;
+}
+
+.blogContainer .blogCart .uploadedDetails {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    margin-bottom: 0;
+}
+
+.blogContainer .blogCart .uploadedDetails .date, .blogContainer .blogCart .uploadedDetails .counter span {
+    font-family: "Manrope", sans-serif;
+    font-size: 16px;
+    line-height: 28px;
+    color: #939191;
+    font-weight: 600;
+    margin-bottom: 0;
+}
+
+.blogContainer .blogCart .uploadedDetails .counter i {
+    font-family: "fontawesome";
+    color: #939191;
+}
+
+.blogContainer .blogCart .blogTitle {
+    font-family: "Manrope", sans-serif;
+    font-size: 32px;
+    line-height: 48px;
+    color: #1E1B1B;
+    text-align: left;
+    font-weight: 700;
+    margin-bottom: 0;
+    width: 100%;
+}
+
+.blogContainer .blogCart .blogSubTitle {
+    font-family: "Manrope", sans-serif;
+    font-size: 16px;
+    line-height: 28px;
+    color: #232536;
+    text-align: left;
+    font-weight: 600;
+    margin-bottom: 7px;
+}
+
+.blogContainer .load {
+    padding: 16px 40px 16px 40px;
+    background: #1E1B1B;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 600;
+    font-family: "Manrope", sans-serif;
+    line-height: 31px;
+    border-radius: 12px;
+    outline: none;
+    border: none;
+    margin: 0 auto;
+}
